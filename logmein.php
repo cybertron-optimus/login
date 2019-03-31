@@ -69,7 +69,7 @@ echo"\n\e[1m\e[37mInstagram Generate Cookie Version".$ikeh['data']['sign_version
 echo"\n\e[2;32mhttps://haztorobo.xyz";
 echo"\n\e[31mCode By Hari Hk Optimus Developer\n";
 echo $likeh;
-echo"\n".$WH."Enter Your ".$OR."Insert Username : ";
+echo"\n".$WH."?".$OR."Insert Username : ";
 $mu=trim(fgets(STDIN));
 echo $WH."? ".$OR."Insert Password : \e[0;30m";$mp=trim(fgets(STDIN));
 echo"\e[1;36m  |Try to login..\n";

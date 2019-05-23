@@ -1,5 +1,5 @@
 <?php
-$data=array('by'=>'Optimus Haztorobo Hati Hk',
+$data=array('by'=>'Optimus Haztorobo Hari Hk',
            'url'=>'https://harirobo.ml/getData.php',
             );
 function Submit($url,$fields)

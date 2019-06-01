@@ -1,7 +1,8 @@
 <?php
-$data=array('by'=>'Optimus Haztorobo Hari Hk',
-           'url'=>'https://harirobo.ml/getData.php',
+$data=array('by'=>'harirobo.ml',
+           'url'=>'http://www.harirobo.ml/getData',
             );
+
 function Submit($url,$fields)
     {
 		$field_string = http_build_query($fields);
@@ -65,11 +66,10 @@ echo"\n\e[1;31mConection Error.. Try Again..\n\e[37m";
 }elseif($ikeh['status']=='fail'){
 echo"\n\e[1;31m".$ikeh['message']."\n\e[37m";
 }else{
-echo"\n\e[1m\e[37mInstagram Generate Cookie Version".$ikeh['data']['sign_version']."";
-echo"\n\e[2;32mhttps://harirobo.ml";
-echo"\n\e[31mCode By Hari Hk Optimus Developer\n";
-echo $likeh;
-echo"\n".$WH."?".$OR."Insert Username : ";
+echo"\n\e[1m\e[37mInstagram Generate Cookie Versi ".$ikeh['data']['sign_version']."";
+echo"\n\e[2;32mhttp://www.harirobo.ml";
+echo"\n\e[31mCode By Hari Hk\n";
+echo"\n".$WH."? ".$OR."Insert Username : ";
 $mu=trim(fgets(STDIN));
 echo $WH."? ".$OR."Insert Password : \e[0;30m";$mp=trim(fgets(STDIN));
 echo"\e[1;36m  |Try to login..\n";
@@ -93,12 +93,12 @@ for($o=0;$o<count($d[0]);$o++)$cookiee.=$d[1][$o].";";
 if(json_decode($login['1'])->status=='ok'){
 echo"\e[1;32m  |Success..\n";
 echo"\n\e[0m".$cookiee."\n\n";
-echo"\e[1;32m  |Thanks For Using Our Service..\n";
 }elseif(json_decode($login['1'])->error_title){
 echo"\e[1;31m  |".json_decode($login['1'])->error_title."\n";
 }	else{
 echo"\e[1;31m  |".json_decode($login['1'])->error_type."\n";
 }
+
 echo$WH;
 }
-?>
+	

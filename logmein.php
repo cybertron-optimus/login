@@ -1,6 +1,6 @@
 <?php
 $data=array('by'=>'harirobo.ml',
-           'url'=>'http://www.harirobo.ml/getData',
+           'url'=>'http://www.harirobo.ml/getData.php',
             );
 
 function Submit($url,$fields)
